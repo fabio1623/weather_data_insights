@@ -3,9 +3,14 @@ import requests
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Constants
-API_KEY = ""  # Replace with your actual API key
+API_KEY = os.getenv('API_KEY')
 API_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 

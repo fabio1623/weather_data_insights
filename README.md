@@ -33,8 +33,8 @@ This is a Streamlit application that fetches and analyzes weather data for a lis
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/weather-analysis-app.git
-   cd weather-analysis-app
+   git clone https://gitlab.com/sarmentopedrofabio/weather_data_insights.git
+   cd weather_data_insights
    ```
 
 2. **Install the required packages:**
@@ -46,7 +46,7 @@ This is a Streamlit application that fetches and analyzes weather data for a lis
 3. **Set up your Weather API key:**
 
 - Sign up for a free API key from OpenWeatherMap service provider (https://openweathermap.org/)
-- Add your API key in function.py:
+- Create the `.env` File and add your API key in it:
 
   ```bash
      API_KEY="your_api_key_here"
