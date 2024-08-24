@@ -36,27 +36,34 @@ This is a Streamlit application that fetches and analyzes weather data for a lis
    git clone https://gitlab.com/sarmentopedrofabio/weather_data_insights.git
    cd weather_data_insights
    ```
+   
+2. **Create and activate a virtual environment**
 
-2. **Install the required packages:**
+   ```bash
+   python3 -m venv [your_venv_name]
+   source [your_venv_name]/bin/activate
+   ```
 
-  ```bash
+3. **Install the required packages:**
+
+   ```bash
    pip install -r requirements.txt
    ```
 
-3. **Set up your Weather API key:**
+4. **Set up your Weather API key:**
 
 - Sign up for a free API key from OpenWeatherMap service provider (https://openweathermap.org/)
 - Create the `.env` File and add your API key in it:
 
-  ```bash
-     API_KEY="your_api_key_here"
+   ```bash
+   API_KEY="your_api_key_here"
    ```
 
-4. **Run the application:**
+5. **Run the application:**
 
-  ```bash
-  streamlit run main.py
-  ```
+   ```bash
+   streamlit run main.py
+   ```
 
 ## Usage
 
