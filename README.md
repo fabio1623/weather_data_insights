@@ -69,7 +69,7 @@ This is a Streamlit application that fetches and analyzes weather data for a lis
 
 1. **Enter City Names**: In the input field, enter the names of cities separated by commas (e.g., New York, London, Tokyo).
 2. **Fetch Weather Data**: Click the "Fetch Weather Data" button to retrieve and analyze the weather data.
-3. **~~View Results~~**: The application will display the weather data, analysis results, and various visualizations.
+3. **View Results**: The application will display the weather data, analysis results, and various visualizations.
 
 ## Error Handling
 
