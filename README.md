@@ -67,12 +67,20 @@ This is a Streamlit application that fetches and analyzes weather data for a lis
 
 ## Usage
 
-1. Enter City Names: In the input field, enter the names of cities separated by commas (e.g., New York, London, Tokyo).
-2. Fetch Weather Data: Click the "Fetch Weather Data" button to retrieve and analyze the weather data.
-3. View Results: The application will display the weather data, analysis results, and various visualizations.
+1. **Enter City Names**: In the input field, enter the names of cities separated by commas (e.g., New York, London, Tokyo).
+2. **Fetch Weather Data**: Click the "Fetch Weather Data" button to retrieve and analyze the weather data.
+3. **~~View Results~~**: The application will display the weather data, analysis results, and various visualizations.
 
 ## Error Handling
 
 - If no city names are entered, the application will display an error message.
 - If invalid or empty city names are entered, the application will prompt you to enter at least one valid city name.
 - If the weather data cannot be retrieved (e.g., due to a network issue or invalid API key), a warning message will be displayed.
+
+### Why These Packages?
+
+- **Streamlit**: Used for building the interactive user interface, allowing users to input city names, fetch data, and visualize results easily.
+- **Requests**: Facilitates making HTTP requests to the weather API to retrieve real-time weather data.
+- **Pandas**: Provides powerful data manipulation capabilities for processing and analyzing the fetched weather data.
+- **Seaborn and Matplotlib**: Used for creating various visualizations, with Seaborn providing a high-level interface for drawing attractive and informative statistical graphics, and Matplotlib offering customizable plots.
+- **OS and Dotenv**: These manage environment variables, with Dotenv helping to securely load the API key from a .env file.
